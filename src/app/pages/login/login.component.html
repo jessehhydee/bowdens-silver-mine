@@ -1,0 +1,38 @@
+<div class="login_container">
+
+  <div class="login_container_overlay">
+
+    <div class="form_container">
+
+      <img class="icon" src="assets/images/bowdens_silver_logo.png" alt="Bowdens Silver Logo">
+
+      <h4 class="welcome_h4">
+        Welcome to Bowdens Silver Interactive
+      </h4>
+
+      <h1 class="login_h1">
+        Please login to proceed<span class="dot_transform">.</span>
+      </h1>
+
+      <div class="login_form">
+        <div>
+          <p class="error_msg" *ngIf="displayError">Username or password is incorrect. Please try again.</p>
+        </div>
+        <div>
+          <input type="username" class="login_input" [(ngModel)]="enteredUsername" placeholder="Username"/>
+        </div>
+        <div>
+          <input type="password" class="login_input" [(ngModel)]="enteredPassword" placeholder="Password"/>
+        </div>
+        <div>
+          <button class="login_button" (click)="login()">Login</button>
+        </div>
+      </div>
+
+    </div>
+
+    <img class="truescape_logo" src="assets/images/truescape_logo.png" alt="Truescape Logo">
+
+  </div>
+
+</div>

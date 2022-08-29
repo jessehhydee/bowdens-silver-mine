@@ -1,0 +1,13 @@
+<app-loader-overlay *ngIf="displayLoadingScreen"></app-loader-overlay>
+
+<app-logout-button></app-logout-button>
+
+<app-slides-thumbnail-modal *ngIf="displaySlidesThumbnail"></app-slides-thumbnail-modal>
+
+<app-terrain-switch></app-terrain-switch>
+
+<app-three-d-switch></app-three-d-switch>
+
+<img #showSlidesElement class="pin_icon" src="assets/icon/Pin.png" (click)="showSlides()"/>
+
+<canvas #terrainCanvas class="terrain"></canvas>

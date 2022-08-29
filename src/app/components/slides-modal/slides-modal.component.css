@@ -1,0 +1,93 @@
+
+.exit_button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f2f2f;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+}
+.exit_button:hover {
+  cursor: pointer;
+}
+
+:host ::ng-deep .swiper {
+  width: 100%;
+  height: 85%;
+  padding-bottom: 70px;
+}
+
+:host ::ng-deep .swiper-slide {
+  text-align: center;
+  display: flex;
+}
+
+:host ::ng-deep .swiper-pagination-bullet-active {
+  background-color: #D25F27!important;
+  width: 20px;
+  border-radius: 12px;
+}
+
+:host ::ng-deep .swiper-pagination-bullet {
+  background-color: #818181;
+}
+
+:host ::ng-deep .swiper-button-next {
+  color: #D25F27;
+}
+:host ::ng-deep .swiper-button-prev {
+  color: #D25F27;
+}
+
+.ground_view_img {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1320px) {
+
+  .ground_view_img {
+    max-width: 650px;
+  }
+  
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .ground_view_img {
+    max-width: 500px;
+  }
+  
+}
+
+@media only screen and (max-width: 850px) {
+
+  :host ::ng-deep .swiper {
+    padding-bottom: 20px;
+  }
+
+  .ground_view_img {
+    max-width: 350px;
+  }
+  
+}
+
+@media only screen and (max-width: 660px) {
+
+  :host ::ng-deep .swiper-button-next {
+    display: none;
+  }
+  :host ::ng-deep .swiper-button-prev {
+    display: none;
+  }
+  
+}

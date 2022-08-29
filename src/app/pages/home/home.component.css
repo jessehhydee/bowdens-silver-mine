@@ -1,0 +1,29 @@
+
+.terrain {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.show_slides_button {
+  width: auto;
+  height: auto;
+  padding: 13px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2f2f2f;
+  font-size: 14px;
+  font-weight: 600;
+  color: #eeeeee;
+}
+
+.pin_icon {
+  height: 40px;
+  width: auto;
+}
+.pin_icon:hover {
+  cursor: pointer;
+}

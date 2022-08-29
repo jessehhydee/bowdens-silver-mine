@@ -1,0 +1,6 @@
+<div class="switch_container">
+
+  <button class="switch_button existing" [ngClass]="{'active_colour': !displayProposed}" (click)="toggleTerrain(false)">Existing</button>
+  <button class="switch_button proposed" [ngClass]="{'active_colour': displayProposed}" (click)="toggleTerrain(true)">Proposed</button>
+
+</div>

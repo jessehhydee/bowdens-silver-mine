@@ -1,0 +1,27 @@
+
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Centra No2';
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Centra No2";
+  src: local("Centra No2"), url(./assets/fonts/centraNo2.ttf) format("truetype");
+}
+
+.slides_modal > mat-dialog-container {
+  width: 84vw;
+  height: 80vh;
+  max-width: 1300px;
+  max-height: 800px;
+  padding: 20px 40px;
+  background-color: #2f2f2f;
+  border-radius: 15px;
+  border: 1px solid #eeeeee;
+  box-shadow: #00000080 0px 25px 20px;
+  position: relative!important;
+}

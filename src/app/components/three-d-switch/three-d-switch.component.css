@@ -1,0 +1,49 @@
+
+.angled_camera_info_container {
+  width: 150px;
+  height: 80px;
+  padding: 15px 20px;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  border: 2px solid #eeeeee;
+  box-shadow: #00000080 0px 15px 20px;
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  z-index: 9;
+}
+
+.angled_camera_info_p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #eeeeee;
+  line-height: 1.4;
+}
+
+.camera_angle_switch_container {
+  height: auto;
+  width: auto;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9;
+}
+
+.camera_angle_switch_button {
+  width: auto;
+  height: auto;
+  padding: 13px;
+  border-radius: 50%;
+  border: 2px solid #eeeeee;
+  background-color: #2f2f2f;
+  font-size: 14px;
+  font-weight: 600;
+  color: #eeeeee;
+}
+.camera_angle_switch_button:hover {
+  cursor: pointer;
+  box-shadow: #00000080 0px 15px 20px;
+}
+.camera_angle_switch_button:active {
+  background-color: #D25F27;
+}

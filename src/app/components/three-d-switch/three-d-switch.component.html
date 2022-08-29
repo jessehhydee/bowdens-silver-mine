@@ -1,0 +1,9 @@
+<div class="angled_camera_info_container" *ngIf="displayInfo">
+  <p class="angled_camera_info_p">
+    Double press track pad to rotate or right click your mouse and hold
+  </p>
+</div>
+
+<div class="camera_angle_switch_container">
+  <button class="camera_angle_switch_button" (click)="toggleCameraAngle(goThreeD ? false : true)">{{ goThreeD ? '2D' : '3D' }}</button>
+</div>

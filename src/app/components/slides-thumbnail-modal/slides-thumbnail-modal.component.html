@@ -1,0 +1,31 @@
+<div class="slides_thumb_container">
+
+  <div class="thumbnail_inner_container">
+
+    <img class="slide_thumbnail" *ngIf="!currentTerrainIsMining" src="assets/images/Year01_Thumbnail.jpg" alt="Site Ground View"/>
+    <img class="slide_thumbnail" *ngIf="currentTerrainIsMining" src="assets/images/Year16_Thumbnail.jpg" alt="Site Ground View"/>
+
+    <div class="thumbnail_info_container">
+
+      <h3 class="thumbnail_h3">{{ currentTerrainIsMining ? 'Year Sixteen of Proposal' : 'Year One of Proposal'}}</h3>
+      <h5 class="thumbnail_h5">Ground view</h5>
+
+      <p class="thumbnail_p" *ngIf="!currentTerrainIsMining">
+        After one year, the lower embankment noise barrier will surround the soil stockpile and newly cut pit.
+        Landscape will have minimal, however noticable changes.
+      </p>
+      <p class="thumbnail_p" *ngIf="currentTerrainIsMining">
+        After sixteen years, the mines lifecycle is complete.
+        A new mound will occupy this view containing all waste rock.
+        The open cut pit will be located behind  the waste rock mound.
+      </p>
+
+      <button class="more_button" (click)="displayAllSlides()">More</button>
+
+    </div>
+
+  </div>
+
+  <button class="exit_button" (click)="closeThumbnail()">&#10006;</button>
+
+</div>
