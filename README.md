@@ -8,6 +8,12 @@ Login credentials:
 Username: admin
 Password: admin01
 
+# Screenshots
+
+![alt text](https://github.com/jessehhydee/threejs-nz-map/blob/main/src/assets/screenshots/landing.png?raw=true)
+
+![alt text](https://github.com/jessehhydee/threejs-nz-map/blob/main/src/assets/screenshots/terrain.png?raw=true)
+
 # Learnings
 
 ### Textures
